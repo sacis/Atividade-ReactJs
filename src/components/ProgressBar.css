@@ -1,0 +1,32 @@
+.progress__info {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.progress__info span:last-child {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.progress__track {
+  height: 12px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+}
+
+.progress__fill {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 0.3s ease, background 0.3s;
+}
+
+.progress__fill.is-done {
+  background: var(--success);
+}

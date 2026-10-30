@@ -1,0 +1,53 @@
+.upload__text {
+  margin-top: 0;
+  color: var(--ink-soft);
+}
+
+.upload__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.upload__drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1.5rem 1rem;
+  border: 2px dashed var(--line);
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.upload__drop:hover {
+  border-color: var(--accent);
+  background: var(--paper-dark);
+}
+
+.upload__form:focus-within .upload__drop {
+  border-color: var(--accent);
+}
+
+.upload__drop-title {
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.upload__drop-hint {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.upload__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 480px) {
+  .upload__actions .button {
+    width: 100%;
+  }
+}
