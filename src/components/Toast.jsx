@@ -26,7 +26,6 @@ function Toast({ id, message, type, duration = 4000, onClose }) {
       >
         ×
       </button>
-      <span className="toast__timer" style={{ animationDuration: `${duration}ms` }} aria-hidden="true" />
     </div>
   )
 }

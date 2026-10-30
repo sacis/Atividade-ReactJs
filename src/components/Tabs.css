@@ -25,12 +25,11 @@
 .tabs__tab[aria-selected='true'] {
   color: var(--accent);
   border-bottom-color: var(--accent);
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .tabs__panel {
-  padding: 1.25rem 0.25rem 0;
-  animation: tab-fade 0.25s ease;
+  padding: 1rem 0.25rem 0;
 }
 
 .tabs__panel p {
@@ -46,11 +45,4 @@
 
 .tabs__panel li + li {
   margin-top: 0.35rem;
-}
-
-@keyframes tab-fade {
-  from {
-    opacity: 0;
-    transform: translateY(4px);
-  }
 }

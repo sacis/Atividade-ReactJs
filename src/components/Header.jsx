@@ -17,7 +17,6 @@ function Header() {
       <div className="container header__inner">
         <a href="#catalogo" className="header__logo">
           Sebos e Molhados
-          <small>livros usados desde 1994</small>
         </a>
 
         <nav aria-label="Navegação principal">
@@ -32,7 +31,7 @@ function Header() {
 
         <div className="header__cart" aria-live="polite">
           <span>
-            Sacola: <strong>{items.length}</strong> {items.length === 1 ? 'livro' : 'livros'} · {formatPrice(total)}
+            Sacola: <strong>{items.length}</strong> {items.length === 1 ? 'livro' : 'livros'} - {formatPrice(total)}
           </span>
           <button type="button" className="header__clear" onClick={clearCart}>
             Esvaziar
