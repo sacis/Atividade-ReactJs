@@ -6,7 +6,7 @@ const storeTabs = [
     content: (
       <>
         <p>
-          O Sebo da Ladeira começou com três estantes num corredor da Ladeira da Barra. Hoje são mais de
+          O Sebos e Molhados começou com três estantes num corredor da Ladeira da Barra. Hoje são mais de
           20 mil títulos entre literatura brasileira, clássicos estrangeiros, quadrinhos e livros didáticos.
         </p>
         <p>Todo livro passa por limpeza e revisão antes de ir para a prateleira.</p>
@@ -43,7 +43,7 @@ const storeTabs = [
           <br />
           (71) 3333-0000
           <br />
-          contato@sebodaladeira.com.br
+          contato@sebosemolhados.com.br
         </p>
       </address>
     )

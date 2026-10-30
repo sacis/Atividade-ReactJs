@@ -16,7 +16,7 @@ function Header() {
     <header className="header">
       <div className="container header__inner">
         <a href="#catalogo" className="header__logo">
-          Sebo da Ladeira
+          Sebos e Molhados
           <small>livros usados desde 1994</small>
         </a>
 
